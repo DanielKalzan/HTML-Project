@@ -1,0 +1,35 @@
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #111; /* Set background color for navbar */
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px;
+    position: relative
+}
+
+nav.centered {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Allow navigation to expand and fill remaining space */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav a.active {
+    background-color: #f05252; /* Highlight the active page */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Change hover color for non-active links */
+}
