@@ -1,30 +1,9 @@
 /* style.css */
-
-
-header {
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.5;
-}
 a {
     color: #fff;
     text-decoration: none;
     font-size: large;
 }
-
-main {
-    padding: 50px;
-}
-
 .hero {
     text-align: center;
     margin-bottom: 50px;
@@ -110,12 +89,6 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #111;
 }
 
 .mySlides {display: none;}

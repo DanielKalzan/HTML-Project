@@ -1,35 +1,43 @@
 /* style.css */
-
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #222;
-    color: #fff;
+.section-menu {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* הוסף צללית */
+    background-color: #333;
+    padding: 20px; /* הוסף מרווח פנימי */
+    border-radius: 5px; /* הוסף עיגול פינות */
 }
 
-header {
-    padding: 20px;
-    text-align: center;
+.section-menu img {
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 50% 20% / 10% 40%;
 }
 
-h1 {
+.section-menu .text-content {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.section-menu h2 {
     font-size: 2em;
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 1.2em;
-    line-height: 1.5;
+.section-menu p {
+    margin-bottom: 20px;
 }
 
-main {
-    padding: 50px;
+.section-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-menu ul li {
+    margin-bottom: 5px;
 }
 
 
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #111;
-}
