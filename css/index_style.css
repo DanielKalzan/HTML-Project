@@ -40,57 +40,6 @@ a {
     margin-bottom: 10px;
 }
 
-.testimonials {
-    margin-bottom: 50px;
-}
-
-.testimonial {
-    background-color: #333;
-    padding: 20px
-}
-
-.testimonial p {
-    font-style: italic;
-    margin-bottom: 10px;
-}
-
-.testimonial span {
-    font-size: 0.8em;
-    color: #ccc;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.contact input,
-.contact textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact textarea {
-    height: 100px;
-}
-
-.contact button {
-    background-color: #f05252;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .mySlides {display: none;}
 .Slidesimg {
     width: 100%;
