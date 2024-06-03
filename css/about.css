@@ -21,20 +21,30 @@
   box-shadow: 5px 5px 20px black;
   overflow: hidden;
 }
-
-img{
-  height: 500px;
-  width: 350px;
-  border-radius: 15px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.intro{
-  height: 70px;
-  width: 350px;
-  padding: 6px;
-  box-sizing: border-box;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+.gallery-item {
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 15px;
+  font-size: 16px;
   color: #fff;
-  bottom: 10px;
 }
