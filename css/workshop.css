@@ -1,0 +1,35 @@
+.cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.cont .from-input{
+    width: 32%;
+}
+.cont .from-input input{
+    display: none;
+}
+
+.cont .from-input label{
+
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #333, #333 50%, #eee 75%, #333 75%);
+}
+.cont .from-input label  img{
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.cont .from-input label:hover{
+    border: 1px solid #363636;
+    cursor: pointer;
+}
+.cont .from-input input:checked + label{
+    border: 2px solid blue;
+}
