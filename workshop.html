@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/nav_style.css">
     <link rel="stylesheet" href="./css/Shared_css.css">
     <link rel="stylesheet" href="./css/workshop.css">
+    <!-- <link rel="stylesheet" href="./css/gg.css"> -->
     <link rel="icon" type="image/x-icon" href="./image/logo01.jpg">
     <title>Kalzen Catering</title>
 </head>
@@ -26,53 +27,129 @@
 
     <main>
 
-        <section class="about_workshop"></section>
-        <section class="Register_workshop">
+        <section class="about_workshop">
+            <h1 style="text-align: center;">קטרינג דניאל: סדנאות בישול גורמה לכל חיך!</h1>
+            <p>ברוכים הבאים לקטרינג דניאל! אנו מתמחים בהענקת חוויות קולינריות ייחודיות ומרגשות, באמצעות סדנאות מעשיות
+                ומהנות המותאמות לכל רמות הידע והניסיון. הצטרפו אלינו למגוון סדנאות מרתקות בהנחיית שפים מקצועיים ותיהנו
+                מלימוד והכנה של מטעמים ייחודיים וטעימים. בואו לגלות את סודות המטבח יחד איתנו!</p>
 
-            <form class="from">
+            <h2>סדנת BBQ</h2>
+            <p>בסדנה זו נלמד את רזי אומנות ה-BBQ, החל מהכנת הבשרים ועד לשימוש בטכניקות צלייה שונות. תיהנו מחוויה מעשירה
+                ומעוררת תיאבון בה תכירו את סוגי הבשרים השונים, תתנסו בהכנת מרינדות מיוחדות ותלמדו את סודות הצלייה
+                המושלמת. הסדנה כוללת:</p>
+            <ul>
+                <li>הכרת סוגי הבשרים והמרינדות</li>
+                <li>טכניקות צלייה וגריל מקצועיות</li>
+                <li>הכנת תוספות מלוות ומרינדות ייחודיות</li>
+                <li>טעימת הבשרים והמנות שהוכנו במהלך הסדנה</li>
+            </ul>
+
+            <h2>סדנה איטלקית</h2>
+            <p>בואו לגלות את הקסם של המטבח האיטלקי, מהמולדת של הפסטות, הפיצות והקינוחים הבלתי נשכחים. בסדנה זו נלמד כיצד
+                להכין מנות איטלקיות קלאסיות מהמטבח המסורתי, תוך שימת דגש על שימוש בחומרי גלם טריים ואיכותיים. הסדנה
+                כוללת:</p>
+            <ul>
+                <li>הכנת פסטות טריות בעבודת יד</li>
+                <li>רטבים איטלקיים מסורתיים</li>
+                <li>הכנת פיצות משובחות עם תוספות יצירתיות</li>
+                <li>טעימת המנות האיטלקיות המדהימות שיצרנו</li>
+            </ul>
+
+            <h2>סדנת קינוחים</h2>
+            <p>לכל חובבי המתוק, זו הסדנה בשבילכם! הצטרפו אלינו למסע מתוק ומפנק בו תלמדו להכין מגוון קינוחים מופלאים
+                ומרשימים. הסדנה כוללת:</p>
+            <ul>
+                <li>הכנת קינוחים קלאסיים ומודרניים</li>
+                <li>טכניקות עבודה עם שוקולד, בצק ופירות</li>
+                <li>הכנת קישוטים יפים וטעימים</li>
+                <li>טעימת הקינוחים הנהדרים שיצרנו</li>
+            </ul>
+
+        </section>
+        <section class="reviews">
+            <h2>מה אומרים לקוחותינו?</h2>
+            <div class="review">
+                <p>"השתתפתי בסדנת BBQ והיה פשוט מדהים! למדתי המון על צליית בשרים וטכניקות חדשות. המדריך היה מקצועי
+                    והאווירה הייתה נהדרת. מומלץ בחום!"</p>
+                <span>רותי מחלוף - סדנת BBQ.</span>
+            </div>
+            <br>
+            <div class="review">
+                <p>"סדנה איטלקית מרתקת וטעימה מאוד! למדנו להכין פסטות בעבודת יד והרטבים היו משגעים. תודה רבה לקטרינג
+                    דניאל על החוויה הבלתי נשכחת!"</p>
+                <span>אבי שימעוני - סדנה איטלקית. </span>
+            </div>
+            <br>
+            <div class="review">
+                <p>"אני חובבת קינוחים והסדנת קינוחים הייתה פשוט חלום! כל המתכונים היו קלים לביצוע והתוצאות מדהימות. אני
+                    כבר מחכה לסדנה הבאה!"</p>
+                <span>מיכל דליות - סדנת קינוחים.</span>
+            </div>
+        </section>
+        <section class="Register_workshop">
+            <form class="from contact" target="_blank" action="https://formsubmit.co/2bd863bbca92680561d2851eab5b925b"
+                method="POST">
+                <h1>הזמנת סדנה</h1>
+
                 <div class="cont">
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="a-workshop" value="a">
+                        <input type="radio" name="workshop" id="a-workshop" value="BBQ_workshop">
                         <label for="a-workshop">
-                            <div class="workshop-card">
-                                <img src="./image/menu_BBQ/BBQ_night01.jpeg">
-                                <div class="title">a-workshop</div>
-                                <div class="desc">
-                                    a-a-workshopa-a-workshopa-a-workshopa
-                                    -a-workshopa-a-workshopa-a-workshopa-a-workshopa-a-workshop
+                            <div class="box">
+                                <img alt="" src="./image/menu_BBQ/BBQ_night01.jpeg">
+                                <div class="overlay">
+                                    <h3>סדנאת על האש</h3>
+                                    <p>חוויה קולינרית מרתקת שמאפשרת למשתתפים ללמוד את אומנות הצלייה והגריל. בסדנה זו,
+                                        המשתתפים יחשפו
+                                        לטכניקות ולסודות שמאחורי הכנת מנות BBQ מושלמות, יכירו סוגים שונים של בשרים
+                                        ומרינדות, ויהנו
+                                        מחוויה חברתית וטעימה.</p>
                                 </div>
-                                <div class="price">270$</div>
                             </div>
                         </label>
                     </div>
-
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="b-workshop" value="a">
+                        <input type="radio" name="workshop" id="b-workshop" value="Italian_workshop">
                         <label for="b-workshop">
-                            <div>
-                                <div class="title">b-workshop</div>
-                                <div class="desc">
-                                    a-a-workshopa-a-workshopa-a-workshopa
-                                    -a-workshopa-a-workshopa-a-workshopa-a-workshopa-a-workshop
+                            <div class="box">
+                                <img alt="" src="./image/workshop/Italian workshop.jpeg">
+                                <div class="overlay">
+                                    <h3>סדנה איטלקית</h3>
+                                    <p> חוויה קולינרית מעשירה שמאפשרת למשתתפים ללמוד ולהתנסות בהכנת מאכלים איטלקיים
+                                        אותנטיים. בסדנה
+                                        זו, המשתתפים יכירו את רזי המטבח האיטלקי, יגלו את הסודות שמאחורי המנות המסורתיות
+                                        ויהנו מהכנת
+                                        אוכל טרי וטעים במו ידיהם.</p>
                                 </div>
-                                <div class="price">270$</div>
                             </div>
                         </label>
                     </div>
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="c-workshop" value="a">
+                        <input type="radio" name="workshop" id="c-workshop" value="desserts_workshop">
                         <label for="c-workshop">
-                            <div>
-                                <div class="title">c-workshop</div>
-                                <div class="desc">
-                                    a-a-workshopa-a-workshopa-a-workshopa
-                                    -a-workshopa-a-workshopa-a-workshopa-a-workshopa-a-workshop
+                            <div class="box">
+                                <img alt="" src="./image/workshop/desserts workshop.jpeg">
+                                <div class="overlay">
+                                    <h3>סדנאת קינוחים</h3>
+                                    <p> חוויה מתוקה ומרגשת שמאפשרת למשתתפים ללמוד ולהתנסות בהכנת מגוון קינוחים מהממים
+                                        וטעימים. בסדנה
+                                        זו, המשתתפים ייחשפו לעולם הקונדיטוריה, ילמדו טכניקות מקצועיות ויגלו את הסודות
+                                        שמאחורי הכנת
+                                        קינוחים מושלמים.</p>
                                 </div>
-                                <div class="price">270$</div>
                             </div>
                         </label>
                     </div>
                 </div>
+                <div class="row">
+                    <input type="email" placeholder="אימל" name="email">
+                    <input type="text" placeholder="שם המזמין" name="name">
+                    <input type="number" placeholder="כמה תהיו?" name="count">
+                    <textarea name="message" placeholder="הערות על ההזמנה"></textarea>
+
+                    <button type="submit">שליחת הזמנה</button>
+                </div>
+
             </form>
 
 

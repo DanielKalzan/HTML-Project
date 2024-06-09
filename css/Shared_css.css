@@ -1,10 +1,11 @@
-:root{
-    --background_color: #222; 
+:root {
+    --background_color: #222;
     --taxt_color: #fff;
     --button_color: #f05252;
     --hover_btn_color: #e99595;
     --hover_taxt_color: #111;
 }
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -20,8 +21,10 @@ header {
 }
 
 .logo {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
     margin-left: 20px;
     position: relative
 }
@@ -29,7 +32,8 @@ header {
 nav.centered {
     display: flex;
     justify-content: center;
-    flex-grow: 1; /* Allow navigation to expand and fill remaining space */
+    flex-grow: 1;
+    /* Allow navigation to expand and fill remaining space */
 }
 
 nav a {
@@ -41,7 +45,7 @@ nav a {
 }
 
 nav a.active {
-    background-color: var(--button_color); 
+    background-color: var(--button_color);
 }
 
 nav a:hover {
@@ -52,7 +56,6 @@ nav a:hover {
 
 h1 {
     font-size: 2em;
-    margin-bottom: 10px;
 }
 
 p {
@@ -72,21 +75,21 @@ footer {
 }
 
 
-.testimonials {
+.reviews {
     margin-bottom: 50px;
 }
 
-.testimonial {
+.review {
     background-color: #333;
     padding: 20px
 }
 
-.testimonial p {
+.review p {
     font-style: italic;
     margin-bottom: 10px;
 }
 
-.testimonial span {
+.review span {
     font-size: 0.8em;
     color: #ccc;
 }
@@ -122,7 +125,8 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .contact button:hover {
-   background-color: var(--hover_btn_color);
-   color: var(--hover_taxt_color);
+    background-color: var(--hover_btn_color);
+    color: var(--hover_taxt_color);
 }
