@@ -1,27 +1,28 @@
-#about{
+#about {
   background-color: #333;
   padding: 70px;
   border-radius: 30px;
 }
 
-.about_logo{
-  width: 300px; 
+.about_logo {
+  width: 300px;
   display: block;
   padding-left: 40px;
   margin: auto;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.image_card{
+.image_card {
   height: 500px;
   margin: 50px;
   box-shadow: 5px 5px 20px black;
   overflow: hidden;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -39,9 +40,9 @@
   text-align: center;
 }
 
-.gallery-item:hover{
+.gallery-item:hover {
   border-radius: 50% 20% / 10% 40%;
-  transition: 120ms;
+  transition: 200ms;
 }
 
 .gallery-item img {

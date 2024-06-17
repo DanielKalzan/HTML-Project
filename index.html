@@ -27,24 +27,25 @@
   <main>
     <section class="slideshow">
       <div class="mySlides fade">
-        <img src="./image/slider_image/Image.jpg" class="Slidesimg">
-        <div class="text">Caption Text</div>
+        <img src="./image/slider_image/image01.jpeg" class="Slidesimg">
       </div>
 
       <div class="mySlides fade">
-        <img src="./image/slider_image/Image (1).jpg" class="Slidesimg">
-        <div class="text">Caption Two</div>
+        <img src="./image/slider_image/image02.jpeg" class="Slidesimg">
       </div>
 
       <div class="mySlides fade">
-        <img src="./image/slider_image/Image (2).jpg" class="Slidesimg">
-        <div class="text">Caption Three</div>
+        <img src="./image/slider_image/image03.jpeg" class="Slidesimg">
       </div>
 
+      <div class="mySlides fade">
+        <img src="./image/slider_image/image04.jpeg" class="Slidesimg">
+      </div>
     </section>
     <br>
 
     <div style="text-align:center">
+      <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
@@ -55,12 +56,12 @@
       <p>ממפגשים אינטימיים ועד לחגיגות מפוארות, אנו יוצרים חוויות קולינריות בלתי נשכחות.</p>
       <button><a href="./menus.html">צפה בתפריטים</a></button>
     </section>
-
-    <h1>התפריטים הנהדרים שלנו</h1>
-    <p>גלו את מגוון אפשרויות הקייטרינג שלנו ותמצאו את הפתרון המושלם לאירוע שלכם.</p>
+    <hr>
+    <h1 style="text-align: center;">התפריטים הנהדרים שלנו</h1>
+    <p style="text-align: center;">גלו את מגוון אפשרויות הקייטרינג שלנו ותמצאו את הפתרון המושלם לאירוע שלכם.</p>
     <section class="services">
       <div class="gallery">
-        <a target="_blank" href="img_5terre.jpg">
+        <a target="_blank" href="./image/menu_wedding/main_image.jpg">
           <img src="./image/menu_wedding/main_image.jpg" alt="Cinque Terre" width="600" height="400">
         </a>
         <div class="desc">
@@ -70,7 +71,7 @@
       </div>
 
       <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
+        <a target="_blank" href="./image/menu_busines/busines.jpg">
           <img src="./image/menu_busines/busines.jpg" alt="Forest" width="600" height="400">
         </a>
         <div class="desc">
@@ -80,7 +81,7 @@
       </div>
 
       <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
+        <a target="_blank" href="./image/menu_chefs_dishes/chefs_dishes.jpg">
           <img src="./image/menu_chefs_dishes/chefs_dishes.jpg" alt="Northern Lights" width="600" height="400">
         </a>
         <div class="desc">
@@ -90,7 +91,7 @@
       </div>
 
       <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
+        <a target="_blank" href="./image/menu_BBQ/BBQ_night.jpg">
           <img src="./image/menu_BBQ/BBQ_night.jpg" alt="Mountains" width="600" height="400">
         </a>
         <div class="desc">
@@ -113,13 +114,14 @@
         <span>- דוד לוי, אירוע עסקי</span>
       </div>
     </section>
+    <hr>
     <section class="contact">
       <h2>צרו קשר עוד היום!</h2>
       <p>לפרטים נוספים או להזמנת אירוע, מלאו את הטופס הבא:</p>
-      <form action="#">
-        <input type="text" name="name" placeholder="שם">
-        <input type="email" name="email" placeholder="אימל">
-        <textarea name="message" placeholder="הודעה"></textarea>
+      <form target="_blank" action="https://formsubmit.co/2bd863bbca92680561d2851eab5b925b" method="POST">
+        <input type="text" name="name" placeholder="שם" required>
+        <input type="email" name="email" placeholder="אימל" required>
+        <textarea name="message" placeholder="הודעה" required></textarea>
         <button type="submit">שלח</button>
       </form>
     </section>

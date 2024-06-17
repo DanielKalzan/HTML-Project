@@ -93,7 +93,7 @@
 
                 <div class="cont">
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="a-workshop" value="BBQ_workshop">
+                        <input type="radio" name="workshop" id="a-workshop" value="BBQ_workshop" required>
                         <label for="a-workshop">
                             <div class="box">
                                 <img alt="" src="./image/menu_BBQ/BBQ_night01.jpeg">
@@ -109,7 +109,7 @@
                         </label>
                     </div>
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="b-workshop" value="Italian_workshop">
+                        <input type="radio" name="workshop" id="b-workshop" value="Italian_workshop" required>
                         <label for="b-workshop">
                             <div class="box">
                                 <img alt="" src="./image/workshop/Italian workshop.jpeg">
@@ -125,7 +125,7 @@
                         </label>
                     </div>
                     <div class="from-input">
-                        <input type="radio" name="workshop" id="c-workshop" value="desserts_workshop">
+                        <input type="radio" name="workshop" id="c-workshop" value="desserts_workshop" required>
                         <label for="c-workshop">
                             <div class="box">
                                 <img alt="" src="./image/workshop/desserts workshop.jpeg">
@@ -142,9 +142,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <input type="email" placeholder="אימל" name="email">
-                    <input type="text" placeholder="שם המזמין" name="name">
-                    <input type="number" placeholder="כמה תהיו?" name="count">
+                    <input type="email" placeholder="אימל" name="email" required>
+                    <input type="text" placeholder="שם המזמין" name="name" required>
+                    <input type="number" placeholder="כמה תהיו?" name="count" required>
                     <textarea name="message" placeholder="הערות על ההזמנה"></textarea>
 
                     <button type="submit">שליחת הזמנה</button>
